@@ -84,18 +84,16 @@ __global__ void TransposeRow (element *Min, element *Mout, unsigned int mh, unsi
 {
     int i;
     const int uid = blockIdx.x * blockDim.x + threadIdx.x;
-    for(i=0; i< mw; ++i){
+    for(i=0; i< mw; ++i)
         Mout[i*mw + uid] = Min[uid *mw + i];
-    }
 }
 
 __global__ void TransposeCol (element *Min, element *Mout, unsigned int mh, unsigned int mw)
 {
     int i;
     const int uid = blockIdx.x * blockDim.x + threadIdx.x;
-    for(i=0; i< mw; ++i){
+    for(i=0; i< mw; ++i)
         Mout[uid *mw + i] = Min[i*mw + uid];
-    }
 }
 
 __global__ void TransposeGM (element *Min, element *Mout, unsigned int mh, unsigned int mw)
