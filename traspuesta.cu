@@ -8,7 +8,7 @@
 
 StopWatchInterface *hTimer = NULL;
 
-#define BLOCK_SIZE 64
+#define BLOCK_SIZE 16
 
 #ifdef ELEMENT_TYPE
 typedef float element;
@@ -105,10 +105,17 @@ __global__ void TransposeGM (element *Min, element *Mout, unsigned int mh, unsig
 
 __global__ void TransposeSM (element *Min, element *Mout, unsigned int mh, unsigned int mw)
 {
-    //TODO preguntar en clase
     const int vId = blockIdx.y * blockDim.y + threadIdx.y;
     const int hId = blockIdx.x * blockDim.x + threadIdx.x;
-    Mout[hId*mw+vId] = Min[vId*mw+hId];
+
+    __shared__ element sMin[BLOCK_SIZE][BLOCK_SIZE];
+    int i;
+
+    for(i=0;i<(mw/BLOCK_SIZE);++i)
+        sMin[threadIdx.y][threadIdx.x] = Min[vId*mw+hId];
+
+    __syncthreads();
+    Mout[hId*mw+vId] = sMin[threadIdx.y][threadIdx.x];
 }
 // ------------------------
 // MAIN function
@@ -249,11 +256,11 @@ int main(int argc, char **argv)
    sdkDeleteTimer(&hTimer);
    printf("Tiempo de ejecucion del kernel (segs): %f s", timerValue);
    totalbytes = 2 * sizeof(element) * mh * mw;
-   printf("   %f GBs\n",(totalbytes)/timerValue/1000000000);
+   printf(" %f GBs\n",(totalbytes)/timerValue/1000000000);
 
    timerValue = (stop.tv_sec + stop.tv_usec * 1e-6)-(start.tv_sec + start.tv_usec * 1e-6);
    printf("Tiempo de ejecución total (segs) = %.6f",timerValue);
-   printf("   %f GBs\n",(totalbytes)/timerValue/1000000000);
+   printf(" %f GBs\n",(totalbytes)/timerValue/1000000000);
 
    return 0;
 }
