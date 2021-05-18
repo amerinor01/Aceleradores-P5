@@ -3,7 +3,7 @@
 DOUBLE_PROGRAM="./double.out"
 FLOAT_PROGRAM="./float.out"
 
-N=(1024 2048) # Add more if we use Pekin
+N=(1024 2048 4096 8192) # Add more if we use Pekin
 
 for i in ${N[@]}
 do
