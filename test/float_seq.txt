@@ -1,0 +1,160 @@
+It: 1 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.012540 s 0.668948 GBs
+Tiempo de ejecución total (segs) = 0.097638 0.085915 GBs
+
+It: 2 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.014185 s 0.591372 GBs
+Tiempo de ejecución total (segs) = 0.102981 0.081458 GBs
+
+It: 3 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.013049 s 0.642854 GBs
+Tiempo de ejecución total (segs) = 0.061590 0.136201 GBs
+
+It: 4 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.013470 s 0.622762 GBs
+Tiempo de ejecución total (segs) = 0.077925 0.107650 GBs
+
+It: 5 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.014088 s 0.595443 GBs
+Tiempo de ejecución total (segs) = 0.063153 0.132830 GBs
+
+It: 6 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.013496 s 0.621563 GBs
+Tiempo de ejecución total (segs) = 0.062151 0.134972 GBs
+
+It: 7 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.011956 s 0.701623 GBs
+Tiempo de ejecución total (segs) = 0.059504 0.140975 GBs
+
+It: 8 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.011955 s 0.701682 GBs
+Tiempo de ejecución total (segs) = 0.059489 0.141011 GBs
+
+It: 9 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.013491 s 0.621793 GBs
+Tiempo de ejecución total (segs) = 0.061630 0.136112 GBs
+
+It: 10 Option: 5 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.012017 s 0.698062 GBs
+Tiempo de ejecución total (segs) = 0.059770 0.140348 GBs
+
+It: 1 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.050024 s 0.670767 GBs
+Tiempo de ejecución total (segs) = 0.128979 0.260154 GBs
+
+It: 2 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.051434 s 0.652378 GBs
+Tiempo de ejecución total (segs) = 0.124636 0.269220 GBs
+
+It: 3 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.050528 s 0.664076 GBs
+Tiempo de ejecución total (segs) = 0.139257 0.240953 GBs
+
+It: 4 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.048720 s 0.688720 GBs
+Tiempo de ejecución total (segs) = 0.121925 0.275205 GBs
+
+It: 5 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.050014 s 0.670901 GBs
+Tiempo de ejecución total (segs) = 0.123873 0.270878 GBs
+
+It: 6 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.052231 s 0.642424 GBs
+Tiempo de ejecución total (segs) = 0.125385 0.267612 GBs
+
+It: 7 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.052144 s 0.643496 GBs
+Tiempo de ejecución total (segs) = 0.125305 0.267782 GBs
+
+It: 8 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.052379 s 0.640608 GBs
+Tiempo de ejecución total (segs) = 0.125775 0.266781 GBs
+
+It: 9 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.049523 s 0.677552 GBs
+Tiempo de ejecución total (segs) = 0.137005 0.244914 GBs
+
+It: 10 Option: 5 N: 2048
+Tiempo de ejecucion del kernel (segs): 0.061828 s 0.542706 GBs
+Tiempo de ejecución total (segs) = 0.150003 0.223692 GBs
+
+It: 1 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.223642 s 0.600145 GBs
+Tiempo de ejecución total (segs) = 0.409792 0.327527 GBs
+
+It: 2 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.228093 s 0.588434 GBs
+Tiempo de ejecución total (segs) = 0.400031 0.335518 GBs
+
+It: 3 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.229600 s 0.584572 GBs
+Tiempo de ejecución total (segs) = 0.401367 0.334402 GBs
+
+It: 4 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.227032 s 0.591184 GBs
+Tiempo de ejecución total (segs) = 0.399370 0.336074 GBs
+
+It: 5 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.226605 s 0.592298 GBs
+Tiempo de ejecución total (segs) = 0.399122 0.336282 GBs
+
+It: 6 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.216262 s 0.620626 GBs
+Tiempo de ejecución total (segs) = 0.388622 0.345368 GBs
+
+It: 7 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.226934 s 0.591439 GBs
+Tiempo de ejecución total (segs) = 0.398969 0.336411 GBs
+
+It: 8 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.228359 s 0.587749 GBs
+Tiempo de ejecución total (segs) = 0.400493 0.335131 GBs
+
+It: 9 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.222171 s 0.604119 GBs
+Tiempo de ejecución total (segs) = 0.394477 0.340242 GBs
+
+It: 10 Option: 5 N: 4096
+Tiempo de ejecucion del kernel (segs): 0.224998 s 0.596529 GBs
+Tiempo de ejecución total (segs) = 0.397324 0.337804 GBs
+
+It: 1 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.912496 s 0.588354 GBs
+Tiempo de ejecución total (segs) = 1.512135 0.355042 GBs
+
+It: 2 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.912910 s 0.588087 GBs
+Tiempo de ejecución total (segs) = 1.571151 0.341705 GBs
+
+It: 3 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.910798 s 0.589451 GBs
+Tiempo de ejecución total (segs) = 1.505567 0.356590 GBs
+
+It: 4 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.914761 s 0.586897 GBs
+Tiempo de ejecución total (segs) = 1.507941 0.356029 GBs
+
+It: 5 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.912853 s 0.588124 GBs
+Tiempo de ejecución total (segs) = 1.504873 0.356755 GBs
+
+It: 6 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.911002 s 0.589319 GBs
+Tiempo de ejecución total (segs) = 1.503579 0.357062 GBs
+
+It: 7 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.914173 s 0.587275 GBs
+Tiempo de ejecución total (segs) = 1.503946 0.356975 GBs
+
+It: 8 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.911377 s 0.589077 GBs
+Tiempo de ejecución total (segs) = 1.502200 0.357390 GBs
+
+It: 9 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.910584 s 0.589590 GBs
+Tiempo de ejecución total (segs) = 1.508285 0.355948 GBs
+
+It: 10 Option: 5 N: 8192
+Tiempo de ejecucion del kernel (segs): 0.911775 s 0.588819 GBs
+Tiempo de ejecución total (segs) = 1.623080 0.330773 GBs
+

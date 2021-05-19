@@ -1,0 +1,30 @@
+==10670== NVPROF is profiling process 10670, command: ./build/double.out 4 8192 8192 0
+==10670== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==10670== Profiling application: ./build/double.out 4 8192 8192 0
+==10670== Profiling result:
+==10670== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "NVIDIA GeForce GTX 1050 (0)"
+    Kernel: TransposeSM(double*, double*, unsigned int, unsigned int)
+          1                            warps_launched     2097152     2097152     2097152     2097152
+          1                               local_store           0           0           0           0
+          1                              global_store     2097152     2097152     2097152     2097152
+          1                                local_load           0           0           0           0
+          1                               global_load     2097152     2097152     2097152     2097152
+          1                               shared_load     2097152     2097152     2097152     2097152
+          1                              shared_store     2097152     2097152     2097152     2097152
+
+==10670== Metric result:
+Invocations                               Metric Name                             Metric Description         Min         Max         Avg
+Device "NVIDIA GeForce GTX 1050 (0)"
+    Kernel: TransposeSM(double*, double*, unsigned int, unsigned int)
+          1      shared_load_transactions_per_request    Shared Memory Load Transactions Per Request    2.000000    2.000000    2.000000
+          1     shared_store_transactions_per_request   Shared Memory Store Transactions Per Request    2.000000    2.000000    2.000000
+          1       local_load_transactions_per_request     Local Memory Load Transactions Per Request    0.000000    0.000000    0.000000
+          1      local_store_transactions_per_request    Local Memory Store Transactions Per Request    0.000000    0.000000    0.000000
+          1                 shared_store_transactions                      Shared Store Transactions     4194304     4194304     4194304
+          1                  shared_load_transactions                       Shared Load Transactions     4194304     4194304     4194304
+          1                   local_load_transactions                        Local Load Transactions           0           0           0
+          1                  local_store_transactions                       Local Store Transactions           0           0           0
+          1                          gld_transactions                       Global Load Transactions    67108866    67108866    67108866
+          1                          gst_transactions                      Global Store Transactions    67108864    67108864    67108864
