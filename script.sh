@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DOUBLE_PROGRAM="./double.out"
-FLOAT_PROGRAM="./float.out"
+DOUBLE_PROGRAM="./build/double.out"
+FLOAT_PROGRAM="./build/float.out"
 
 FLOAT_FILE=test\/float.txt
 FLOAT_SEQ=test\/float_seq.txt
@@ -24,6 +24,7 @@ $METRICS_FLAGS "-e " $EVENTS_FLAGS)
 # Check if we are sudoers
 if [[ "sudo" -eq  0 ]]
 then
+	rm -rf test/*
 	# Iterate for every matrix size
 	for i in ${N[@]}
 	do

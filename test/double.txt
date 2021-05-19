@@ -1,0 +1,63 @@
+It: 1 Option: 0 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.072346 s 0.231902 GBs
+Tiempo de ejecución total (segs) = 0.365063 0.045957 GBs
+ 1 warps_launched 32768 32768 32768 32768
+ 1 local_store 0 0 0 0
+ 1 global_store 32768 32768 32768 32768
+ 1 local_load 0 0 0 0
+ 1 global_load 32768 32768 32768 32768
+ 1 shared_load 0 0 0 0
+ 1 shared_store 0 0 0 0
+ 1 shared_load_transactions_per_request Shared Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions_per_request Shared Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_load_transactions_per_request Local Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_store_transactions_per_request Local Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions Shared Store Transactions 0 0 0
+ 1 shared_load_transactions Shared Load Transactions 0 0 0
+ 1 local_load_transactions Local Load Transactions 0 0 0
+ 1 local_store_transactions Local Store Transactions 0 0 0
+ 1 gld_transactions Global Load Transactions 1048578 1048578 1048578
+ 1 gst_transactions Global Store Transactions 262144 262144 262144
+
+It: 2 Option: 0 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.072794 s 0.230475 GBs
+Tiempo de ejecución total (segs) = 0.345091 0.048617 GBs
+ 1 warps_launched 32768 32768 32768 32768
+ 1 local_store 0 0 0 0
+ 1 global_store 32768 32768 32768 32768
+ 1 local_load 0 0 0 0
+ 1 global_load 32768 32768 32768 32768
+ 1 shared_load 0 0 0 0
+ 1 shared_store 0 0 0 0
+ 1 shared_load_transactions_per_request Shared Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions_per_request Shared Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_load_transactions_per_request Local Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_store_transactions_per_request Local Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions Shared Store Transactions 0 0 0
+ 1 shared_load_transactions Shared Load Transactions 0 0 0
+ 1 local_load_transactions Local Load Transactions 0 0 0
+ 1 local_store_transactions Local Store Transactions 0 0 0
+ 1 gld_transactions Global Load Transactions 1048578 1048578 1048578
+ 1 gst_transactions Global Store Transactions 262144 262144 262144
+
+It: 3 Option: 0 N: 1024
+Tiempo de ejecucion del kernel (segs): 0.073472 s 0.228348 GBs
+Tiempo de ejecución total (segs) = 0.360018 0.046601 GBs
+ 1 warps_launched 32768 32768 32768 32768
+ 1 local_store 0 0 0 0
+ 1 global_store 32768 32768 32768 32768
+ 1 local_load 0 0 0 0
+ 1 global_load 32768 32768 32768 32768
+ 1 shared_load 0 0 0 0
+ 1 shared_store 0 0 0 0
+ 1 shared_load_transactions_per_request Shared Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions_per_request Shared Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_load_transactions_per_request Local Memory Load Transactions Per Request 0.000000 0.000000 0.000000
+ 1 local_store_transactions_per_request Local Memory Store Transactions Per Request 0.000000 0.000000 0.000000
+ 1 shared_store_transactions Shared Store Transactions 0 0 0
+ 1 shared_load_transactions Shared Load Transactions 0 0 0
+ 1 local_load_transactions Local Load Transactions 0 0 0
+ 1 local_store_transactions Local Store Transactions 0 0 0
+ 1 gld_transactions Global Load Transactions 1048578 1048578 1048578
+ 1 gst_transactions Global Store Transactions 262144 262144 262144
+
