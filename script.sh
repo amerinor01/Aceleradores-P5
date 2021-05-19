@@ -24,7 +24,12 @@ $METRICS_FLAGS "-e " $EVENTS_FLAGS)
 # Check if we are sudoers
 if [[ "sudo" -eq  0 ]]
 then
-	rm -rf test/*
+	read -p "Delete the previous results?" answer
+	if [[ $answer -eq "yes" ]]
+	then
+		rm -rf test/*
+		echo "hola"
+	fi
 	# Iterate for every matrix size
 	for i in ${N[@]}
 	do
