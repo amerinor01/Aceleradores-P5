@@ -1,1 +1,0 @@
-sudo nvprof --log-file prueba.txt -m shared_efficiency,shared_load_transactions,shared_store_transactions  ./double.out 4 8192 8192 0
